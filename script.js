@@ -77,3 +77,49 @@ function square(number){
 }
 let square4 = square(4);
 console.log(square4);
+
+//examplw for add
+let x = 6;
+let y = 2;
+console.log(x + y);
+
+//example for Subtraction
+console.log(x - y);
+
+//example for multiply
+console.log(x * y);
+
+//example for dividing
+console.log(x / y);
+
+//example for remainder
+console.log(x % y);
+
+//some more examples
+console.log(x ** y);
+console.log(++x);
+console.log(--y);
+
+//example for +=
+x = 6;
+y = 2;
+x += y; //x = x + y
+console.log(x);
+
+//example for -=
+x = 6;
+y = 2;
+x -= y; //x = x - y
+console.log(x);
+
+//example for *=
+x = 6;
+y = 2;
+x *= y; //x = x * y
+console.log(x);
+
+//example for %=
+x = 6;
+y = 2;
+x %= y; //x = x % y
+console.log(x);
