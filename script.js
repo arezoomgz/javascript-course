@@ -123,3 +123,82 @@ x = 6;
 y = 2;
 x %= y; //x = x % y
 console.log(x);
+
+//example for >
+console.log(y > 2);
+
+//example for >=
+console.log(y >= 2);
+
+//example for <
+console.log(y < 2);
+
+//example for <=
+console.log(y <= 2);
+
+//example for ==
+console.log(y == 2);
+console.log(y == "2");
+
+//example for !=
+console.log(y != 2);
+console.log(y != "2");
+
+//example for ===
+console.log(y === 2);
+console.log(y === "2");
+
+//example for !==
+console.log(y !== 2);
+console.log(y !== "2");
+
+//example for logical AND &&
+console.log(true && false && true);
+let productCount = 4;
+let productPrice = 100;
+let credit = 1400;
+let buy = productCount > 0 && credit >= productPrice;
+console.log(buy);
+
+//example for logical OR ||
+console.log(true || false || true);
+
+//example for NOT !
+let example5 = true;
+console.log(!example5); 
+
+//example
+let example6 = example5 === true? "HI! this was true":"Hello! This was false";
+console.log(example6)
+
+//example for if else
+let hour = 20;
+if(hour >=6 && hour < 12){
+    console.log("good morning!");
+}else if(hour >=12 && hour < 18){
+    console.log("good afternoon;");
+}else{
+    console.log("good evening!");
+}
+
+//example for switch-case
+let role = "admin";
+switch(role){
+    case "guest":
+        console.log("This is a " + role);
+        break;
+    case "admin":
+        console.log("This is a " + role);
+        break;
+    default:
+        console.log("This is an unknown user");
+}
+
+//same example but with if else
+if(role === "guest"){
+    console.log("This is a " + role);
+}else if(role === "admin"){
+    console.log("This is a " + role);
+}else{
+    console.log("This is an unknown user");
+}
