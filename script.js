@@ -202,3 +202,64 @@ if(role === "guest"){
 }else{
     console.log("This is an unknown user");
 }
+//example of for
+for(let i=0;i<5;i++){
+    console.log("Hi" + i);
+}
+
+//another example of for
+for(let i=0;i<5;i++){
+    if(i%2 != 0){
+        console.log(i + " is an odd number");
+    }else{
+        console.log(i + " is an even number")
+    }
+}
+
+//example of while
+let x1 = 1;
+while(x1<=5){
+    console.log(x1)
+    x1++;
+}
+//example of for in
+const person1 = {name:"saba", age:19};
+for(let key in person1){
+    console.log(key);
+    console.log(person1[key]);
+}
+//another example of for in
+const color1 = ["red" , "blue", 'green'];
+for(let col in color1){
+    console.log(col);
+    console.log(color1[col]);
+}
+//example of for of
+for(let col of color1){
+    console.log(col);
+}
+//function factory
+let circle1 = {
+    radius:1,
+    location:{
+        x:1,
+        y:2
+    },
+    isvisible:true,
+    draw: function(){console.log("draw this circle")}
+}
+circle1.draw();
+
+function createcircle1(r,xx,yy){
+    return {
+        radius:r,
+        location:{
+            x:xx,
+            y:yy
+        },
+        isvisible:true,
+        draw: function(){console.log("draw this circle")}
+    }
+}
+let cc11 = createcircle1(10,1,3);
+console.log(cc11);
