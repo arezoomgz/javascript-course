@@ -476,6 +476,7 @@ console.log(message2.split(" "));
 
 
 //examples
+
 message2 = `Hi
 coding is cool.
 ''' `;
@@ -490,3 +491,23 @@ let nameForString2 = "mohammad";
 let nameForString3 = "saman";
 let message4 = `Hi ${nameForString2} . hello ${nameForString3}. 2+2 is ${2+2} .`;
 console.log(message4); 
+
+
+//example for Date
+
+const now = new Date();
+console.log(now);
+console.log(now.toDateString());
+console.log(now.toISOString());
+console.log(now.getDate());
+console.log(now.getFullYear());
+console.log(now.getMonth());
+now.setFullYear(2015);
+console.log(now);
+
+const date1 = new Date("May 11 2018 9:00");
+console.log(date1);
+
+const date2 = new Date(2022,6,11,9,0);
+console.log(date2);
+
