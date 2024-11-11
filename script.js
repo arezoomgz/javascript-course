@@ -475,11 +475,11 @@ message2 = "Hi. coding is so cool";
 console.log(message2.split(" "));
 
 
-//examples of using ``
+//examples
 message2 = `Hi
 coding is cool.
 ''' `;
-//we can put string in `` to go to the next line easier and show it
+
 console.log(message2);
 
 let nameForString1 = "ali";
