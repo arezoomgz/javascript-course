@@ -394,3 +394,33 @@ console.log(circlekeys);
 for(let key of circlekeys){
     console.log(key);
 }
+
+
+//example of cloning object
+
+let cloneObject1 = {};
+for (let key in circle1){
+    cloneObject1 [key] = circle1[key]; 
+}
+console.log(cloneObject1);
+
+
+//example of cloning object in a diffrent way
+
+let cloneObject2 = Object.assign({} , circle1);
+console.log(cloneObject2);
+
+let cloneObject3 = Object.assign({color:'blue'} , circle1);
+console.log(cloneObject3);
+
+
+//example of cloning object in a diffrent way
+
+let cloneObject4 = {...circle1}
+console.log(cloneObject4);
+
+let cloneObject5 = {color:'purple' , ...circle1}
+console.log(cloneObject5);
+
+let cloneObject6 = {name:'circle6' , color:'pink' , ...circle1 , number:'6'}
+console.log(cloneObject6);
