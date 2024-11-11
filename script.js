@@ -424,3 +424,19 @@ console.log(cloneObject5);
 
 let cloneObject6 = {name:'circle6' , color:'pink' , ...circle1 , number:'6'}
 console.log(cloneObject6);
+
+
+//example for math
+
+console.log(Math.PI);
+console.log(Math.random()); //Math.random() chooses a random number between 0 and 1
+console.log(Math.round(1.4)); //Math.round() rounds the number
+console.log(Math.floor(8.923)); //Math.floor() rounds a number DOWN to the nearest integer, if necessary, and returns the result.
+console.log(Math.min(5,29,8));
+console.log(Math.max(5,29,8));
+
+function getRandom(min,max){
+    return Math.floor(Math.random() * (max - min) + min);
+}
+console.log(getRandom(6,60));
+
