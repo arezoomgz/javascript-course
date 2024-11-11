@@ -426,7 +426,7 @@ let cloneObject6 = {name:'circle6' , color:'pink' , ...circle1 , number:'6'}
 console.log(cloneObject6);
 
 
-//example for math
+//example for Math
 
 console.log(Math.PI);
 console.log(Math.random()); //Math.random() chooses a random number between 0 and 1
@@ -439,4 +439,38 @@ function getRandom(min,max){
     return Math.floor(Math.random() * (max - min) + min);
 }
 console.log(getRandom(6,60));
+
+
+//example for string premitive
+const message1 = "Hello";
+console.log(message1);
+
+
+//example for string object
+let message2 = new String("Hi. coding is so cool");
+console.log(message2);
+console.log(message2.length);
+console.log(message2[0]);
+console.log(message2[1]);
+console.log(message2.includes("Hi"));
+console.log(message2.includes('hi'));
+console.log(message2.startsWith("H"));
+console.log(message2.startsWith('h'));
+console.log(message2.startsWith('Hi'));
+console.log(message2.endsWith("cool"));
+console.log(message2.endsWith("Cool"));
+console.log(message2.indexOf("is"));
+console.log(message2.indexOf("Hi"));
+console.log(message2.replace("cool", "nice"));
+message2 = message2.replace("coding", "programing");
+console.log(message2);
+console.log(message2.toLocaleUpperCase());
+console.log(message2);
+console.log(message2.toLocaleLowerCase());
+message2 = "Hi. \' coding is so cool";// \ make it ok to use ' inside ''
+console.log(message2);
+message2 = "Hi. \n coding is so cool"; // \n makes it go to the next line
+console.log(message2);
+message2 = "Hi. coding is so cool";
+console.log(message2.split(" "));
 
