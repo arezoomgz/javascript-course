@@ -475,7 +475,7 @@ message2 = "Hi. coding is so cool";
 console.log(message2.split(" "));
 
 
-//examples of using ``
+//examples of using `
 message2 = `Hi
 coding is cool.
 ''' `;
